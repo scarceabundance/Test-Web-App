@@ -12,6 +12,10 @@ library(tm)
 library(SnowballC)
 library(wordcloud)
 library(RColorBrewer)
+library(usethis)
+
+# to save chaanges to the git repositroy...
+  ## use_github(protocol = 'https', auth_token = Sys.getenv("GITHUB_PAT"))
 
 
 ##### Loading the data #####
